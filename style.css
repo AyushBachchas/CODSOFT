@@ -1,0 +1,98 @@
+@font-face{
+    src:url(fonts/Dreamautohub.ttf)format("truetype");
+    font-family:nos;
+}
+
+.paragraph{
+    text-align: center;
+    font-size: 35px;
+    font-family:sans-serif;
+    color: antiquewhite;
+}
+
+.paragraph2{
+    text-align: center;
+    font-size: 100px;
+    font-family: nos;
+    color: antiquewhite;
+}
+
+.menu-bar
+{
+    text-align: center;
+    background-color: black;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    color: antiquewhite;
+}
+
+.menu-bar ul li
+{
+font-family: Impact;
+width: 120px;
+margin: 20px;
+padding: 20px;
+}
+
+.menu-bar ul li:hover
+{
+    background: floralwhite;
+    color: black;
+    border-radius: 3px;
+}
+
+.paragraph3{
+    font-size: 20px;
+    font-family: Courier;
+    margin: 30px;
+    color: white;
+
+}
+
+.lets-go-btn{
+    color: floralwhite;
+    background: rgb(169, 159, 159);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: -20px;
+
+}
+
+.lets-go-btn:hover{
+    background: rgb(86, 83, 83);
+}
+
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin-top: 0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+}
+
+.icons a{ margin-right: 75px;}
+
+.icons:hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    background-color: black;
+    margin-top: 30%;
+}
+
+.p1{
+    color: antiquewhite;
+    font-size: larger;
+    padding-bottom: 10px;
+}
